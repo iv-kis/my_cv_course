@@ -1,0 +1,15 @@
+python detect_faces.py --image Files/family.jpg --prototxt Files/deploy.prototxt.txt --model Files/res10_300x300_ssd_iter_140000.caffemodel
+
+python detect_faces_video.py --prototxt Files/deploy.prototxt.txt --model Files/res10_300x300_ssd_iter_140000.caffemodel
+
+python opencv_tutorial_2.py --image Files/im2.jpg
+
+python perspective_transform.py --image Files/name.jpg --coords "[(33, 562), (243, 1007), (459, 352), (685, 787)]"
+
+python doc_scanner.py --image Files/name.jpg
+
+python ruler.py --image Files/sizes.jpg --width 2.2
+
+python bubbletest.py --image Files/omr_test_01.png
+
+python facial_landmarks.py --predictor Files/shape_predictor_68_face_landmarks.dat --image Files/faces1.jpg
